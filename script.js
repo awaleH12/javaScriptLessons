@@ -1,23 +1,39 @@
 
 myName = "Hassan awale"
 
-console.log(myName);
+console.log("Welcome to EVC!");
 
-var a;
-var b = 2;
-a = b;
-console.log(b);
+// pay bill
+// nine digit format
+phone = "612101520";
 
-// initialization of variables the below code is uninitializes 
-var d;
-var e;
-var f;
-// initialization of variables  
-var d = 10;
-var e = 11;
-var f = "string";
+if (phone.length == 9) {
+    if (phone.charAt(0) == 6 || phone.charAt(0) == 7) {
+        if (phone.charAt(1) == 1 || phone.charAt(1) == 2 || phone.charAt(1) == 7) {
+            console.log("correct format");
+        } else {
+            console.log("wrong format");
+        }
+    } else {
+        console.log("correct format");
+    }
+} else {
+    console.log("wrong format");
+}
 
-// case sensitivity 
+// ten digit format
+phone = "0612101520";
 
-
-
+if (phone.length == 10) {
+    if (phone.charAt(0) == 0 && phone.charAt(1) == 6) {
+        if (phone.charAt(2) == 1 || phone.charAt(2) == 2) {
+            console.log("correct format");
+        } else {
+            console.log("wrong format");
+        }
+    } else {
+            console.log("wrong format");
+        }
+} else {
+            console.log("wrong format");
+        }

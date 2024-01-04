@@ -25,8 +25,8 @@ function checkLetters(letters) {
 }
 
 // Example usage:
-var alpha = "hassan1";
-if (checkLetters(alpha)) {
+var alphabetic = "hassan1";
+if (checkLetters(alphabetic)) {
   console.log("The string contains only letters.");
 } else {
   console.log("The string contains non-alphabetic characters.");
